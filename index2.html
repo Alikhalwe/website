@@ -15,6 +15,7 @@
     <!--     Fonts     -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 
@@ -28,7 +29,7 @@
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
+        <span class="icon-bar" type="Ali" style=""></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
@@ -39,22 +40,23 @@
       <ul class="nav navbar-nav">
          <li class="dropdown">
 
-   <a href="https://raw.githack.com/Alikhalwe/crystal/master/crystal.html" style="">بحث ألارقام برو</a>
-             <a href="https://raw.githack.com/Alikhalwe/pro/master/index.html">بحث الأسم   </a>
+   <a href="https://raw.githack.com/Alikhalwe/crystal/master/crystal.html" style="display:none">بحث ألارقام برو</a>
+             <a href="https://raw.githack.com/Alikhalwe/pro/master/index.html" style="display:none">بحث الأسم   </a>
               
             
             
            
  
             
-            <a href="https://www.snapchat.com/add/ali_khalwe">Snapchat</a>
+            <a href="https://www.snapchat.com/add/ali_khalwe"> <i class="fa fa-snapchat"> 
+            </i>Snapchat</a>
             <a href="https://www.tiktok.com/@ali_khalwe">Tiktok</a>
             <a href="https://crystal586944250.wordpress.com/me">من نحن</a>
             <a href="https://raw.githack.com/Alikhalwe/crystal/master/crystal.html">رجوع</a>
         
 
 
-<a href="https://crystal586944250.wordpress.com/category/أفلام/">here.</a>
+<a href="https://crystal586944250.wordpress.com/category/أفلام/">.move.</a>
 
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
                 <img src="images/flags/SA.png"/>
@@ -92,6 +94,12 @@
                     Tweet
                 </a>
             </li>
+            <li>
+            <a href="#">
+            <i class="fa fa-snapchat"></i>
+            Snapchat
+            </a>
+            </li>
              <li>
                 <a href="#"> 
                     <i class="fa fa-envelope-o"></i>
@@ -100,7 +108,7 @@
             </li>
        </ul>
       
-    </div><!-- /.navbar-collapse -->
+    </div><!-- /.navbar-القتايمة المن -->
   </div><!-- /.container -->
 </nav>
 <div class="main" style="background-image: url('images/default.jpg')">
@@ -113,7 +121,7 @@
 <!--   You can change the black color for the filter with those colors: blue, green, red, orange       -->
 
     <div class="container">
-        <h2 class="logo cursive">
+        <h2 class="logo sans-serif">
             Crystal
         </h2>
 <!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
@@ -121,10 +129,10 @@
         <div class="content">
 
 
-            <h4 class="motto">شكل جديد تحت التجربة.</h4>
+            <h4 class="motto" style="display: none">شكل جديد تحت التجربة.</h4>
             <div class="subscribe">
                 <h5 class="info-text">
-                    أهلا بك
+                 📠   إبحث عن أي رقم من هنا 📞
                 </h5>
                 <div class="row">
                     <div class="col-md-4 col-md-offset-4 col-sm6-6 col-sm-offset-3 ">
@@ -134,15 +142,12 @@
                             <input type="tel" class="form-control center transparent" placeholder="05........"  id="s" >
                           </div>
   
-
                           <button type="submit" class="btn btn-danger btn-fill" id="sbtn">
-                                    <i class="fa fa-search"></i> <b>إضغط هنا</button>
+                                    <i class="fa fa-search"></i> <b>للبحث </b>إضغط هنا</button>
                         </form>
                       </div>
-<blockquote cite="https://www.w3.org/TR/html52/introduction.html#introduction-history">
-    
-</blockquote>
 
+<br>
 
   <main>
     <div class="container py-4">
@@ -162,7 +167,7 @@
             </div>
    </div>
           </main>
-
+</br>
 
                 </div>
             </div>
@@ -171,8 +176,8 @@
 
 
     <div class="footer">
-      <div class="container">
-             Made with <i class="fa fa-heart heart"></i> by <a href="#"> Ali Khalwe</a>. Free download <a href="http://www.creative-tim.com/product/coming-sssoon-page">here.</a>
+      <div class="container center">
+             Made with <i class="fa fa-heart heart"></i> by <a href="#"> Ali Khalwe</a>. Free download <a href="">here.</a>
       </div>
     </div>
  </div>
@@ -200,7 +205,7 @@
                         resultArea.append('<li class="list-group-item" style="background: #3b4252;color: wheat;">تم العثور على : ' + json.n.length + '</li>');
               
                         resultArea.append('<li class="list-group-item p-1" style="background: #0b4c45;color: white;border-bottom: 1px solid #ffffff40;"><a href="tel:0' + json.n1 + '" style="padding: 10px;"><img src="https://crystal586944250.files.wordpress.com/2023/02/call.png" style="width: 29px;"></a><a href="https://wa.me/' + json.n1 + '" style="padding: 10px;"><img src="https://crystal586944250.files.wordpress.com/2023/02/whatsapp.png" style="width: 30px;"></a></li>');
-                        resultArea.append('<li class="list-group-item" style="display: none;background: #3b4252;color: wheat;"><a href="mailto:KsaNumbersApp@gmail.com?subject=اسم مخالف رقم الجوال :'+json.n1+'" style="padding: 10px;color: white;text-decoration: none;">📝للبلاغ عن اسم مخالف📋</a></li>');
+                        resultArea.append('<li class="list-group-item p-1" style="display: non;background: #3b4252;color: wheat;"><a href="mailto:KsaNumbersApp@gmail.com?subject=اسم مخالف رقم الجوال :'+json.n1+'" style="padding: 10px;color: white;text-decoration: none;">📝للبلاغ عن اسم مخالف📋</a></li>');
 
                         for (let index = 0; index < json.n.length; index++) {
                             resultArea.append($('<li class="list-group-item" style="background: #3b4252;color: wheat;">').text(json.n[index]));
